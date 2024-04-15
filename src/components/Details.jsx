@@ -28,7 +28,9 @@ const Details = () => {
   const [Id, setId] = useState('');
 
   const handleNext = (key, data) => {
+
     let mergedData;
+    
     setFormData((prevData) => {
 
       const currentDate = new Date();
@@ -57,15 +59,17 @@ const Details = () => {
       return mergedData;
     });
 
-    const nextIndex = activeSectionIndex + 1;
-    
-    if (nextIndex === sections.length) {
-
+    try {
       localStorage.setItem(Id, JSON.stringify(mergedData));
-      navigate("/my-resumes");
-    } else {
-      // Continue to the next section
-      setActiveSectionIndex(nextIndex);
+      const nextIndex = activeSectionIndex + 1;
+      if (nextIndex === sections.length) {
+        navigate("/my-resumes");
+      } else {
+        setActiveSectionIndex(nextIndex);
+      }
+    } catch (error) {
+      console.error('Error saving to localStorage:', error);
+      
     }
 
   };
@@ -76,10 +80,6 @@ const Details = () => {
   };
 
 
-  const saveDataToLocalStorage = () => {
-    localStorage.setItem(Id, JSON.stringify(formData));
-  };
-
   useEffect(() => {
     const urlId = urlParams.get('id');
     if (urlId) {
@@ -89,14 +89,6 @@ const Details = () => {
       setId(generatedId);
     }
   }, []);
-
-
-
-  useEffect(() => {
-    if (Object.keys(formData).length > 0) {
-      saveDataToLocalStorage();
-    }
-  }, [formData]);
 
 
   return (

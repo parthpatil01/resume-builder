@@ -79,9 +79,9 @@ const Resume = (props) => {
                     <div className="border-t border-gray-900/10 p-3 sm:p-10">
                         <h3 className="sm:text-xl tracking-wider font-medium pb-1">SKILLS</h3>
                         <ul className="list-disc mt-2 list-inside text-gray-500">
-                            {/* {skills.map((skill, index) => (
+                            {skills.map((skill, index) => (
                                 <li key={index} className=" text-sm sm:text-base">{skill}</li>
-                            ))} */}
+                            ))}
                         </ul>
                     </div>
 
