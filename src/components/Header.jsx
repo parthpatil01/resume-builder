@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom';
 import { useState } from 'react';
-import logo from '../Assets/logo.png'
+import logo from '../Assets/logo2.png'
 
 function Header() {
 
@@ -18,7 +18,7 @@ function Header() {
                 <div className="flex justify-between md:justify-start items-center">
                     <div className="flex shrink-0">
                         <Link to="/" aria-current="page" className="flex items-center">
-                            <img className="h-7 w-auto" src={logo} alt="" />
+                            <img className="h-10 w-auto" src={logo} alt="" />
                         </Link>
                     </div>
                     {/* Hamburger Button */}
