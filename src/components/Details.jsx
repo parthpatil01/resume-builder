@@ -28,7 +28,7 @@ const Details = () => {
   const [Id, setId] = useState('');
 
   const handleNext = (key, data) => {
-
+    let mergedData;
     setFormData((prevData) => {
 
       const currentDate = new Date();
@@ -38,34 +38,34 @@ const Details = () => {
 
 
       const existingData = JSON.parse(localStorage.getItem(Id)) || {};
-      
+
 
       const updatedData = {
         ...prevData,
-        'meta': [existingData.meta?.[0] ?? data.firstName+' '+data.lastName , date, time, templateId, unixTimestamp],
+        'meta': [existingData.meta?.[0] ?? data.firstName + ' ' + data.lastName, date, time, templateId, unixTimestamp],
         [key]: data,
       };
 
 
       // Merge existing data with updated data
-      const mergedData = {
+      mergedData = {
         ...existingData,
         ...updatedData,
       };
 
 
-      const nextIndex = activeSectionIndex + 1;
-      if (nextIndex === sections.length) {
-
-        localStorage.setItem(Id, JSON.stringify(mergedData));
-        navigate("/my-resumes");
-      } else {
-        // Continue to the next section
-        setActiveSectionIndex(nextIndex);
-      }
-
       return mergedData;
     });
+
+    const nextIndex = activeSectionIndex + 1;
+    if (nextIndex === sections.length) {
+
+      localStorage.setItem(Id, JSON.stringify(mergedData));
+      navigate("/my-resumes");
+    } else {
+      // Continue to the next section
+      setActiveSectionIndex(nextIndex);
+    }
   };
 
 
@@ -106,7 +106,7 @@ const Details = () => {
             {sections.map((section, index) => (
               <div key={index}>
                 <li
-                  
+
                   className={`flex justify-center md:justify-start focus:outline-none border-l-4 ${activeSectionIndex === index && "bg-gray-50 border-blue-500 text-blue-500"
                     }`}
                 >
