@@ -58,6 +58,7 @@ const Details = () => {
     });
 
     const nextIndex = activeSectionIndex + 1;
+    
     if (nextIndex === sections.length) {
 
       localStorage.setItem(Id, JSON.stringify(mergedData));
@@ -66,6 +67,7 @@ const Details = () => {
       // Continue to the next section
       setActiveSectionIndex(nextIndex);
     }
+
   };
 
 

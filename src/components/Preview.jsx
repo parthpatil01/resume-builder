@@ -70,7 +70,7 @@ const Preview = ({onNext,onBack,Id}) => {
                 <h1 className="mb-5 mx-auto lg:mx-0 font-semibold text-xl text-gray-600 ">Resume Preview</h1>
  
                 <div id="resume-print" className=' overflow-y p-2' style={{ overflowY: 'auto', scrollbarWidth: 'none', 'msOverflowStyle': 'none', '&::WebkitScrollbar': { display: 'none' } }}>
-                    <ResumeComponent sessionId={sessionId}/>
+                    {ResumeComponent &&<ResumeComponent sessionId={sessionId}/>}
                 </div>
 
             </div>
