@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+
+.inter-font {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+    font-variation-settings:
+        "slnt" 0;
+}
+
+.metallic-gradient {
+    
+    background: linear-gradient(to right,#00B9FC, #0094FB, #006FF9);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  }

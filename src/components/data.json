@@ -1,0 +1,59 @@
+{
+    "personalInfo": {
+      "firstName": "John",
+      "lastName": "Doe",
+      "email": "johndoe@email.com",
+      "phone": "1234567890",
+      "streetAddress": "123 Main Street",
+      "city": "Anytown",
+      "region": "Any State",
+      "postalCode": "12345",
+      "role": "Software Developer",
+      "objective": "Enthusiastic and results-driven Software Developer with [X] years of experience in designing, implementing, and maintaining software solutions. Proficient in multiple programming languages and frameworks, with a strong foundation in computer science principles. Dedicated team player with excellent problem-solving skills and a passion for continuous learning and improvement.",
+      "photo": null
+    },
+    "summary": "Enthusiastic and results-driven Software Developer with [X] years of experience in designing, implementing, and maintaining software solutions. Proficient in multiple programming languages and frameworks, with a strong foundation in computer science principles. Dedicated team player with excellent problem-solving skills and a passion for continuous learning and improvement.",
+    "experience": [
+      {
+        "jobtitle": "Software Developer",
+        "organisation": "Tech Innovations Inc.",
+        "startyear": 2020,
+        "endyear": 2022,
+        "description": "Led a team of developers in the design and implementation of a scalable and robust backend system for a high-traffic e-commerce platform."
+      },
+      {
+        "jobtitle": "Software Developer",
+        "organisation": "Digital Solutions Co.",
+        "startyear": 2017,
+        "endyear": 2019,
+        "description": "Developed and maintained web applications using HTML, CSS, JavaScript, and AngularJS, resulting in improved user experience and increased client satisfaction."
+      },
+      {
+        "jobtitle": "Software Engineering Intern",
+        "organisation": "Tech Start-up XYZ",
+        "startyear": 2016,
+        "endyear": 2016,
+        "description": "Assisted in the development of a mobile application prototype using React Native, contributing to the app's user interface and functionality."
+      }
+    ],
+    "education": {
+      "type": "Graduation",
+      "university": "University of Technology",
+      "degree": "Bachelor of Science in Computer Science",
+      "startyear": 2013,
+      "endyear": 2017
+    },
+    "skills": [
+      "Java",
+      "Python",
+      "JavaScript",
+      "HTML5",
+      "CSS3",
+      "React.js",
+      "SQL",
+      "MongoDB",
+      "Git",
+      "Agile Methodologies"
+    ]
+  }
+  
