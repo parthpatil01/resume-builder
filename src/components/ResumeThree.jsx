@@ -28,7 +28,7 @@ const ResumeThree = (props) => {
         <div class="w-[40%] p-10 bg-[#FDF4F5]">
           <div class="grid gap-8">
             <div class="mx-auto ">
-              <img class="w-[150px] rounded-full" src={profilepic} alt="" />
+              <img class="w-[150px] rounded-full" src={personalInfo.photo||profilepic} alt="" />
             </div>
             <p class="text-4xl font-bold text-[#A685E2]">{personalInfo.firstName.toUpperCase()} {personalInfo.lastName.toUpperCase()}</p>
           </div>

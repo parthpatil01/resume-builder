@@ -31,7 +31,7 @@ const ResumeFour = (props) => {
             <div className="left_Side">
                 <div className="profileText">
                     <div className="imgBx">
-                        <img className="photo" src={profilepic} />
+                        <img className="photo" src={personalInfo.photo||profilepic} />
                     </div>
                     <br />
                     <h2>{personalInfo.firstName.toUpperCase()} {personalInfo.lastName.toUpperCase()}<br /><span>{personalInfo.role}</span> </h2>

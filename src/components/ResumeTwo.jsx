@@ -47,7 +47,7 @@ const ResumeTwo = (props) => {
                         </div>
                     </div>
                     <div>
-                        <img className='rounded-full profile-pic hidden sm:block relative bottom-[20%] right-[35%] h-[50px] w-[50px] sm:h-[100px] sm:w-[100px]'  src={profilepic} alt="" />
+                        <img className='rounded-full profile-pic hidden sm:block relative bottom-[20%] right-[35%] h-[50px] w-[50px] sm:h-[100px] sm:w-[100px]'  src={personalInfo.photo||profilepic} alt="" />
                     </div>
 
                 </div>
