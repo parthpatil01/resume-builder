@@ -29,13 +29,9 @@ Resume Builder, a user-friendly web application with a variety of templates to c
 
 ## Instructions for Use:
 
-#### Choose a Template: 
-* Start by browsing through our selection of templates on the Home Page.
-#### Customize Your Resume: 
-* Fill in your details and upload the profile picture.
+#### Choose a Template: Start by browsing through the selection of templates on the Home Page.
+#### Customize Your Resume: Fill in your details and upload the profile picture.
 #### Preview Your Resume
-#### Save and Download: 
-* Once you're happy with your resume, save it to your local drive and download it in your preferred filename
-#### Manage Saved Resumes: 
-* Head over to the My Resumes tab to Delete or edit your saved resumes as you see fit.
+#### Save and Download: Once you're happy with your resume, save it to your local drive and download it in your preferred filename
+#### Manage Saved Resumes: Head over to the My Resumes tab to Delete or edit your saved resumes as you see fit.
 
