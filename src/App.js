@@ -2,12 +2,12 @@
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 
 
-import Header from './Components/Header'
-import About from './Components/About';
-import Home from './Components/Home'
-import Details from './Components/DetailFilling/Details';
-import Preview from './Components/Preview';
-import MyResumes from './Components/MyResumes';
+import Header from './components/Header'
+import About from './components/About';
+import Home from './components/Home'
+import Details from './components/DetailFilling/Details';
+import Preview from './components/Preview';
+import MyResumes from './components/MyResumes';
 
 
 

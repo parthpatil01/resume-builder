@@ -22,7 +22,7 @@ function About() {
                 <img className='h-[20px] w-[130px]' src={stroke} />
             </div>
             <div className="flex flex-col md:flex-row items-center justify-center">
-                <p className="md:w-[60vw] text-lg text-gray-500 font-[500] tracking-wide italic">If you're looking for random paragraphs, you've come to the right place. When a random word or a random sentence isn't quite enough, the next logical step is to find a random paragraph. We created the Random Paragraph Generator with you in mind. The process is quite simple. Choose the number of random paragraphs you'd like to see and click the button. Your chosen number of paragraphs will instantly appear.While it may not be obvious to everyone, there are a number of reasons creating random paragraphs can be useful. A few examples of how some people use this generator are listed in the following paragraphs</p>
+                <p className="md:w-[60vw] text-lg text-gray-500 font-[500] tracking-wide italic">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque sollicitudin eget massa a aliquam. Mauris pharetra enim massa, vitae egestas nisl pulvinar id. Nullam gravida est nec magna ultricies, vitae tempus quam finibus. Vestibulum viverra, leo et gravida ultricies, diam elit aliquam arcu, vitae hendrerit mauris justo maximus odio. Suspendisse sit amet congue odio. Curabitur eget libero rhoncus, finibus velit vel, commodo orci. Proin consequat nisi ex, sed pulvinar velit efficitur eget. Curabitur sodales, sem consectetur tempus pretium, augue ligula pretium est, at ornare purus nisl vitae lectus. Ut tempus purus et lectus tempor imperdiet.</p>
                 <img className='md:w-[40vw]' src={image} alt="students image" />
 
             </div>
