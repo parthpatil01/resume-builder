@@ -2,7 +2,7 @@
 
 ## Introduction
 
-Resume Builder, a user-friendly web application designed to simplify the process of creating professional resumes. With a variety of templates to choose from and intuitive features, crafting your perfect resume has never been easier.
+Resume Builder, a user-friendly web application with a variety of templates to choose from, designed to simplify the process of creating professional resumes. 
 
 ## Used In this project
 
@@ -25,4 +25,4 @@ Resume Builder, a user-friendly web application designed to simplify the process
 ### My Resumes (Saved Resumes):
 * View and manage your saved resumes.
 * Delete or modify existing resumes to keep your profile up-to-date.
-### About Us:
+### About Us
