@@ -1,8 +1,8 @@
 import React, {useState} from 'react';
-import Resume from "./Resume";
-import ResumeFour from "./ResumeFour";
-import ResumeThree from "./ResumeThree";
-import ResumeTwo from "./ResumeTwo";
+import Resume from "./ResumeTemplates/Resume";
+import ResumeFour from "./ResumeTemplates/ResumeFour";
+import ResumeThree from "./ResumeTemplates/ResumeThree";
+import ResumeTwo from "./ResumeTemplates/ResumeTwo";
 import { useLocation } from 'react-router-dom';
 import JsPDF from 'jspdf';
 import html2canvas from 'html2canvas';

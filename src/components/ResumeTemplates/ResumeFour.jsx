@@ -2,7 +2,7 @@
 import React, { useState, useEffect } from "react";
 import './resumefour.css'
 import { MdPhone, MdEmail, MdLocationCity } from 'react-icons/md';
-import profilepic from '../Assets/wp-2021-01-linkedin-profile-picture-after.avif'
+import profilepic from '../../Assets/wp-2021-01-linkedin-profile-picture-after.avif'
 
 
 const ResumeFour = (props) => {

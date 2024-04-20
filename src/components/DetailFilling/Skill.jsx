@@ -1,6 +1,6 @@
 import React, { useState, useRef, useEffect } from 'react';
 import { MdDelete } from 'react-icons/md';
-import data from './data.json'
+import data from '../data.json'
 
 
 const Skill = ({ onNext, onBack, Id }) => {
@@ -61,7 +61,7 @@ const Skill = ({ onNext, onBack, Id }) => {
     const handleSubmit = async (e) => {
         e.preventDefault();
         try {
-
+            //validating skills fields
             for (const key in skills.skills) {
                 if (skills.skills[key] === '') {
                     setErrorMessage('*Please fill in all fields');

@@ -1,6 +1,6 @@
 import React from 'react';
 import { useState, useEffect, useRef } from 'react';
-import data from './data.json'
+import data from '../data.json'
 
 const PersonalInfo = ({ onNext, Id }) => {
     const [userInfo, setUserInfo] = useState({
@@ -55,7 +55,7 @@ const PersonalInfo = ({ onNext, Id }) => {
 
         e.preventDefault();
         try {
-
+            // Validating fields
             for (const key in userInfo) {
                 if (key === 'phone') {
                     if (userInfo[key] < 0 || userInfo[key].length !== 10) {
@@ -79,6 +79,7 @@ const PersonalInfo = ({ onNext, Id }) => {
                 return;
             }
 
+            //Function to add image to db
             if (userInfo.photo instanceof File) {
 
                 let photoBase64 = null;

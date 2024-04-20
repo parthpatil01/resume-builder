@@ -1,6 +1,6 @@
 
 import React from 'react';
-import data from './data.json'
+import data from '../data.json'
 
 
 import { useState, useEffect, useRef } from 'react';
@@ -49,6 +49,7 @@ const Education = ({ onNext, onBack, Id }) => {
     const handleSubmit = async (e) => {
         e.preventDefault();
         try {
+            //No fields should be empty
             for (const key in Education) {
                 if (Education[key] === '') {
                     setErrorMessage('*Please fill in all fields');

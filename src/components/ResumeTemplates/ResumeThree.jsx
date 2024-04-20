@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import profilepic from '../Assets/wp-2021-01-linkedin-profile-picture-after.avif'
+import profilepic from '../../Assets/wp-2021-01-linkedin-profile-picture-after.avif'
 import { Height } from "@mui/icons-material";
 
 

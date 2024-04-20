@@ -1,6 +1,6 @@
 
 import React from 'react';
-import data from './data.json'
+import data from '../data.json'
 
 import { useState, useEffect, useRef } from 'react';
 
@@ -48,6 +48,7 @@ const Work = ({ onNext, onBack, Id }) => {
     const handleAdd = async (e) => {
         e.preventDefault();
         try {
+            //validating work fields
             if (Work.jobtitle && Work.organisation && Work.startyear && Work.endyear && Work.description) {
                 const newExperience = { ...Work };
 

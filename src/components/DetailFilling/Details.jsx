@@ -3,7 +3,7 @@ import Education from "./Education";
 import PersonalInfo from "./PersonalInfo";
 import Work from "./Work";
 import Skill from "./Skill";
-import Preview from "./Preview";
+import Preview from "../Preview";
 
 
 import { useNavigate } from 'react-router-dom';
@@ -60,6 +60,7 @@ const Details = () => {
     });
 
     try {
+      //If last index then naivgate to my resumes
       localStorage.setItem(Id, JSON.stringify(mergedData));
       const nextIndex = activeSectionIndex + 1;
       if (nextIndex === sections.length) {
@@ -81,6 +82,7 @@ const Details = () => {
 
 
   useEffect(() => {
+    //If redirected from my-resumes it'll fetch data from existing entry
     const urlId = urlParams.get('id');
     if (urlId) {
       setId(urlId);

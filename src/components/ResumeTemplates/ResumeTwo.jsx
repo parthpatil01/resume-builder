@@ -2,7 +2,7 @@ import React from "react";
 import './resumetwo.css';
 import { useState, useEffect } from "react";
 import { MdPhone, MdEmail, MdLocationOn } from 'react-icons/md';
-import profilepic from '../Assets/wp-2021-01-linkedin-profile-picture-after.avif'
+import profilepic from '../../Assets/wp-2021-01-linkedin-profile-picture-after.avif'
 
 
 const ResumeTwo = (props) => {
