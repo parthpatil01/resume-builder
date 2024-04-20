@@ -38,6 +38,6 @@ Resume Builder, a user-friendly web application with a variety of templates to c
 ## Screenshots of pages
 
 * Home page
-![homepage](https://imgur.com/a/hDfdOL0)
+![homepage](https://i.imgur.com/dzu3y65.png)
 
 
