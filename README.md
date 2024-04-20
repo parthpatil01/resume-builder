@@ -38,6 +38,24 @@ Resume Builder, a user-friendly web application with a variety of templates to c
 ## Screenshots of pages
 
 * Home page
+ 
 ![homepage](https://i.imgur.com/dzu3y65.png)
+
+* Details Filling page
+
+![details](https://i.imgur.com/6BCI0kp.png)
+
+* My Resumes
+
+![my resume](https://imgur.com/OVy8cnq.png)
+
+* About us
+
+![about us](https://imgur.com/gq7AxVr.png)
+
+### Live link [click here](https://resume-builder-ts.netlify.app/)
+
+
+
 
 
